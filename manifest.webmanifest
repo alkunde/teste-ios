@@ -1,6 +1,6 @@
 {
     "name": "Teste iOS",
-    "short_name": "TesteIOS",
+    "short_name": "Teste iOS",
     "start_url": "/?source=pwa",
     "display": "standalone",
     "background_color": "#ffffff",
