@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    background: #f2f2f2;
+}
+
+.header {
+    background: #0ea5e9;
+    color: white;
+    padding: 16px;
+    text-align: center;
+}
+
+.container {
+    padding: 16px;
+}
+
+.card {
+    background: white;
+    padding: 16px;
+    border-radius: 12px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+.full-height-box {
+    margin-top: 12px;
+    background: #e0f2fe;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100dvh; /* Teste principal */
+    min-height: 100vh;  /* Fallback */
+    border-radius: 8px;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 12px;
+    font-size: 16px; /* IMPORTANTE para evitar zoom no iOS */
+}
+
+button {
+    padding: 12px;
+    width: 100%;
+    border: none;
+    background: #0ea5e9;
+    color: white;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+.scroll-box {
+    height: 150px;
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch; /* importante no iOS */
+    background: #fafafa;
+    padding: 10px;
+    border-radius: 8px;
+}

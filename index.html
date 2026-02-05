@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+        <title>Teste Safari iOS</title>
+
+        <link rel="manifest" href="/manifest.webmanifest" />
+        <meta name="theme-color" content="#0ea5e9" />
+
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <header class="header">
+            <h1>Teste Web iOS</h1>
+        </header>
+
+        <main class="container">
+            <section class="card">
+                <h2>1️⃣ Teste de Altura (100vh / 100dvh)</h2>
+                <p>Abra no iPhone e role a tela. Veja se a altura muda ao esconder a barra do Safari.</p>
+                <div class="full-height-box">
+                    Área 100dvh
+                </div>
+            </section>
+
+            <section class="card">
+                <h2>2️⃣ Teste de Formulário (zoom no input)</h2>
+                <input type="text" placeholder="Digite algo..." />
+                <button onclick="salvar()">Salvar no LocalStorage</button>
+                <p id="status"></p>
+            </section>
+
+            <section class="card scroll-test">
+                <h2>3️⃣ Scroll Interno</h2>
+                <div class="scroll-box">
+                    <p>Teste de scroll interno no iOS.</p>
+                    <p>Lorem ipsum dolor sit amet...</p>
+                    <p>Lorem ipsum dolor sit amet...</p>
+                    <p>Lorem ipsum dolor sit amet...</p>
+                    <p>Lorem ipsum dolor sit amet...</p>
+                    <p>Lorem ipsum dolor sit amet...</p>
+                    <p>Lorem ipsum dolor sit amet...</p>
+                    <p>Lorem ipsum dolor sit amet...</p>
+                    <p>Lorem ipsum dolor sit amet...</p>
+                </div>
+            </section>
+        </main>
+
+        <script src="script.js"></script>
+    </body>
+</html>
